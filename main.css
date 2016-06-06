@@ -1,6 +1,6 @@
 
 
-html, body, h1, h2, h3, h4, p, div {
+html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -21,6 +21,8 @@ h2 {
 	font-weight: 100;
 	text-align: center;
 	color: #ffffff;
+	width: 700px;
+	margin: 0 auto;
 }
 
 h2 strong {
@@ -31,7 +33,29 @@ h2 strong {
 	background-color: #999999;
 }
 
+h3 {
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid #555555;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	margin: 20px 0;
+}
+
 .tagline {
 	background-color: #000000;
 	padding: 20px 0 20px 0;
+}
+
+.projects {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.projects .ul {
+	list-style-type: none;
+}
+
+.projects .li {
+	margin-bottom: 10px;
 }
