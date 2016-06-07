@@ -47,7 +47,7 @@ h3 {
 	padding: 20px 0 20px 0;
 }
 
-.projects {
+.projects, .badges {
 	width: 700px;
 	margin: 0 auto;
 }
